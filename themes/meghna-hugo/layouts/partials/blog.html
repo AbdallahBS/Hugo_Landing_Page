@@ -11,17 +11,54 @@
 					<div class="border-meghna"></div>
 				</div>
 			</div>
-			{{"<!-- /section title -->" | safeHTML}}
 
-			{{ range first 3 (where site.RegularPages "Section" "==" "blog")}}
-			{{ .Render "article"}}
-			{{ end }}
-
-			<div class="all-post text-center col-lg-12">
-				<a class="btn btn-main" href="{{ `blog/` | absLangURL }}">{{ i18n "viewAllPost" }}</a>
+			<div id="blogContainer" class="row justify-content-center">
+				<!-- Blog articles will be dynamically added here using JavaScript -->
 			</div>
+
+			
 		</div>
 	</div>
 </section>
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script>
+    $(document).ready(function () {
+        // Fetch blog articles from the API
+        $.ajax({
+            type: 'GET',
+            url: 'https://teal-basbousa-aada12.netlify.app/.netlify/functions/api/getBlog',
+            success: function (response) {
+                // Check if blogPosts exists and is an array
+                if (Array.isArray(response.blogPosts)) {
+                    // Iterate through the blogPosts array and render articles
+                    response.blogPosts.forEach(function (blog) {
+                        // Render each article here
+                        var articleHTML = `
+                            <article class="col-lg-4 col-md-6 col-12 clearfix wow fadeInUp mb-4" data-wow-duration="500ms">
+                                <div class="post-block">
+                                    <div class="media-wrapper">
+                                        <img class="img-fluid lozad" src="data:image/webp;base64,${blog.image}" onerror="this.onerror=null;this.src='${blog.imageFallback}'">
+                                    </div>
+                                    <div class="content">
+                                        <h3><a href="${blog.permalink}">${blog.name}</a></h3>
+                                        <p>${blog.content}</p>
+                                    </div>
+                                </div>
+                            </article>
+                        `;
+                        $('#blogContainer').append(articleHTML);
+                    });
+                } else {
+                    console.error('Invalid blogPosts format:', response.blogPosts);
+                }
+            },
+            error: function (error) {
+                console.log(error);
+            }
+        });
+    });
+</script>
+
 {{"<!-- /blog -->" | safeHTML}}
 {{ end }}

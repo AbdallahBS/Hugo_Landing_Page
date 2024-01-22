@@ -99,10 +99,7 @@ name = "services"
 url = "#services"
 weight = 2
 
-[[Languages.en.menu.main]]
-name = "portfolio"
-url = "#portfolio"
-weight = 3
+
 
 [[Languages.en.menu.main]]
 name = "team"
@@ -142,27 +139,20 @@ name = "Dropdown 2"
 url = "#"
 weight = 2
 
-[[Languages.en.menu.main]]
-name = "themefisher"
-url = "https://themefisher.com/"
-weight = 8
 
 
 ################### French Navigation ########################
 [[Languages.fr.menu.main]]
-name = "sur"
+name = "acceuil"
 url = "#about"
 weight = 1
 
 [[Languages.fr.menu.main]]
-name = "un service"
+name = "service"
 url = "#services"
 weight = 2
 
-[[Languages.fr.menu.main]]
-name = "portefeuille"
-url = "#portfolio"
-weight = 3
+
 
 [[Languages.fr.menu.main]]
 name = "équipe"
@@ -184,10 +174,7 @@ name = "contact"
 url = "#contact"
 weight = 7
 
-[[Languages.fr.menu.main]]
-name = "themefisher"
-url = "https://themefisher.com/"
-weight = 8
+
 
 ############################# Default Parameters ##########################
 [params]
