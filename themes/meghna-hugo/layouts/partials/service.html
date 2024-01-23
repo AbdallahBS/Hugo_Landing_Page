@@ -23,27 +23,29 @@
 </section>
 
 <!-- Dynamic Services Script -->
+<!-- Dynamic Services Script -->
 <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 <script>
     $(document).ready(function () {
         // Fetch services from the API
         $.ajax({
             type: 'GET',
-            url: 'https://teal-basbousa-aada12.netlify.app/.netlify/functions/api/getservice',
+            url: 'https://teal-basbousa-aada12.netlify.app/.netlify/functions/api/getTechno',
             success: function (response) {
-                // Iterate through the serviceData array and render services
-                response.serviceData.forEach(function (service) {
+                // Iterate through the array and render services
+                response.forEach(function (service) {
                     // Render each service here
                     var serviceHTML = `
                         <!-- Single Service Item -->
-                        <article class="col-lg-4 col-md-6 col-12 wow fadeInUp" data-wow-duration="500ms">
+                        <article class="col-lg-4 col-md-5 col-12 wow fadeInUp" data-wow-duration="500ms">
                             <div class="service-block text-center">
-                                <div class="service-icon text-center">
-                                    <i class="YOUR_ICON_CLASS"></i> <!-- Replace with actual icon class -->
-                                </div>
-                                <h3>${service.nom_du_service}</h3>
+                                
+                                <h3>${service.title}</h3>
                                 <p>${service.description}</p>
-                            </div>
+                            <div class="service-icon text-center">
+                                    <img src="data:image/png;base64,${service.image}" alt="${service.title}" style="max-width: 100%;">
+                                </div>
+                                </div>
                         </article>
                         <!-- End Single Service Item -->
                     `;

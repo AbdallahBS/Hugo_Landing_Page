@@ -1,68 +1,38 @@
 ############################### team ############################
 team:
   enable : true
-  title : Our Team
+  title : Benefits of Our DevOps Solutions
   team_member :
     # team member loop
-    - name : Abul Mal Muhit
-      image_webp : images/team/team-1.webp
+    - name : Access to professional DevOps engineers
+      image_webp : images/team/team-1.jpg
       image : images/team/team-1.jpg
-      designation : CEO/Founder
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+      designation : 
+      content : Hiring our DevOps team, you get quick and easy access to experienced DevOps engineers, who are able to power your project with their expertise right from the start.
       social :
-        - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-dribbble # themify icon pack : https://themify.me/themify-icons
-          link : "#"
+       
+    # team member loop
+    - name : Cost reduction
+      image_webp : images/team/n2.jpg
+      image : images/team/n2.jpg
+      designation : 
+      content : Due to improved workflows, you cut unnecessary expenses. Additionally, we help SaaS businesses significantly reduce cloud costs and take them under control.
+      social :
+       
         
     # team member loop
-    - name : Frank Miller
-      image_webp : images/team/team-2.webp
-      image : images/team/team-2.jpg
-      designation : Manager
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+    - name : Improved operational support
+      image_webp : images/team/n3.jpg
+      image : images/team/n3.jpg
+      designation : 
+      content : DevOps as a Services simplifies the data and information flow of a project for more convenient collaboration. You also get better documentation and quality control.
       social :
-        - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-dribbble # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        
+       
     # team member loop
-    - name : Michael Jonson
-      image_webp : images/team/team-3.webp
-      image : images/team/team-3.jpg
-      designation : Web Developer
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+    - name : Increased development team agility
+      image_webp : images/team/n4.webp
+      image : images/team/n4.webp
+      designation :
+      content : As a result, companies notice happier and more engaged teams, faster speed and lower cost of releases. Developers obtain more data storage and computing power.
       social :
-        - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-dribbble # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        
-    # team member loop
-    - name : Mo. Kha. Alamgir
-      image_webp : images/team/team-4.webp
-      image : images/team/team-4.jpg
-      designation : SEO Specialist
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
-      social :
-        - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-dribbble # themify icon pack : https://themify.me/themify-icons
-          link : "#"
+       

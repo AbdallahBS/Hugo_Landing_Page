@@ -1,16 +1,16 @@
 ############################# About ###################################
 about:
   enable : true
-  title : About Us
+  title : CLients that implement DevOps
   about_item :
-  - icon : ti-ruler-pencil # themify icon pack : https://themify.me/themify-icons
-    title : We're Creative
-    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+  - icon : https://itoutposts.com/wp-content/uploads/2021/03/image-2.png # themify icon pack : https://themify.me/themify-icons
+    title : 55%
+    content : Point out significant workflow improvements
 
-  - icon : ti-cup # themify icon pack : https://themify.me/themify-icons
-    title : We're Professional
-    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+  - icon : https://itoutposts.com/wp-content/uploads/2021/11/logo_wht_2-2-1.png # themify icon pack : https://themify.me/themify-icons
+    title : 47%
+    content : Note higher end quality of products<br><br>
 
-  - icon : ti-thought # themify icon pack : https://themify.me/themify-icons
-    title : We're Genius
-    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+  - icon : https://itoutposts.com/wp-content/uploads/2021/11/Group-581721.png # themify icon pack : https://themify.me/themify-icons
+    title : 63%
+    content : Observe reduced time-to-market<br><br>

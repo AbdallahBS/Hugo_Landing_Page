@@ -3,25 +3,25 @@ feature:
   enable : true
   image : images/about/about-business-man.jpg
   image_webp : images/about/about-business-man.webp
-  title : We’re A Digital Design Agency.
-  content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam tempora itaque, autem dolores culpa cum mollitia voluptate nesciunt voluptatibus quasi."
+  title : What We Do Best.
+  content : ""
   feature_item : 
       # feature item loop
-    - title : SEO Optimized
+    - title : Create a seamless project architecture
       icon : ti-world # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+      content : We lay a well-structured, sturdy foundation for your projects
       
       # feature item loop
-    - title : Easy Customization
+    - title : Finalize MVP projects for production
       icon : ti-panel # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+      content : Let the professionals polish up and complete your MVP project
 
       # feature item loop
-    - title : SEO Optimized
+    - title : Automate CI/CD for faster time-to-market
       icon : ti-stats-up # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+      content : Employ CI/CD automation techniques to speed up the release
       
       # feature item loop
-    - title : Easy Customization
+    - title : Optimize in-house budget and costs
       icon : ti-announcement # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+      content : Adjust workflows and operations to cut unnecessary expenses<br><br><br><br><br>

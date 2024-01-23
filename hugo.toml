@@ -240,7 +240,7 @@ contentDir = "content/english"
 [Languages.en.params]
 weight = 1
 home = "Home"
-copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
+copyright = "+357 25 059376 hello@itoutposts.com"
 
 ################################ France Language ########################
 [Languages.fr]
@@ -251,8 +251,7 @@ weight = 2
 
 [Languages.fr.params]
 home = "Accueil"
-copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
-
+copyright = "+357 25 059376 hello@itoutposts.com"
 [mediaTypes]
   [mediaTypes."application/javascript"]
     suffixes = ["js"]
