@@ -95,6 +95,12 @@ url = "#home"
 weight = 1
 
 [[Languages.en.menu.main]]
+name = "Services"
+url = "#portfolio"
+weight = 1
+
+
+[[Languages.en.menu.main]]
 name = "Tools"
 url = "#services"
 weight = 2
@@ -107,8 +113,8 @@ url = "#team"
 weight = 4
 
 [[Languages.en.menu.main]]
-name = "blog"
-url = "#blog"
+name = "FAQ"
+url = "#FAQ"
 weight = 6
 
 [[Languages.en.menu.main]]
