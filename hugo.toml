@@ -90,26 +90,21 @@ link = "plugins/google-map/map.js"
 
 ################### English Navigation ########################
 [[Languages.en.menu.main]]
-name = "about"
-url = "#about"
+name = "Home"
+url = "#home"
 weight = 1
 
 [[Languages.en.menu.main]]
-name = "services"
+name = "Tools"
 url = "#services"
 weight = 2
 
 
 
 [[Languages.en.menu.main]]
-name = "team"
+name = "Benefits"
 url = "#team"
 weight = 4
-
-[[Languages.en.menu.main]]
-name = "pricing"
-url = "#pricing"
-weight = 5
 
 [[Languages.en.menu.main]]
 name = "blog"
